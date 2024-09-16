@@ -1,0 +1,128 @@
+body{
+  background-color: #9ae3f7;
+}
+.contianer-centered{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  background-color: #93e4fa;
+}
+.login-container {
+  max-width: 400px;
+  max-height: 400px;
+  /* align-items: center;
+  justify-content: center; */
+  width: 300px ;
+  height: 300px;
+  margin: 100px auto;
+  background-color:#61dafb;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.to-do-list{
+  font-family: Ariel, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+ font-size: 4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding:10px 20px ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background-color: #45b3d1;
+}
+.add-button:hover{
+  background-color: #308ba4;
+}
+.delete-button{
+  background-color: #dd4b4b;
+}
+.delete-button:hover{
+  background-color: #8e1c1c;
+}
+.move-button{
+  background-color: #457e9a;
+}
+.move-button:hover{
+  background-color: #294e75;
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2 px solid hsla(0, 0%, 80%, 00.5s);
+  border-radius: 5px;
+  border: none;
+  color: #294666;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2 rem;
+  font-weight: bold;
+  padding: 15 px;
+  background-color: #8bd8e3;
+  margin-bottom: 10px;
+  border: 3px solid rgb(140, 189, 222);
+  border-radius: 5 px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex:1 ;
+}
+.delete-button,.move-button{
+  padding: 8px 12px;
+  font-size: 1.4 rem;
+  margin-left: 10px;
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form div {
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  height: 40px;
+  box-sizing:border-box;
+  border-width: 0;
+  outline: none;
+  background-color:#f0f0f0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+}
+
