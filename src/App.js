@@ -6,7 +6,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/todo-app'>
       <Routes>
         <Route index element = {<Login />} />
         <Route path='/login' element={<Login/>}/>
